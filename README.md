@@ -2,4 +2,4 @@
 
 Einfacher Rechner in Java.
 
-![Screenshot](https://github.com/sascharank/calculator/blob/master/screenshot.png?raw=true)
+![Screenshot](screenshot.png)
