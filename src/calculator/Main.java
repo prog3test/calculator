@@ -36,12 +36,31 @@ public class Main {
     		value2 = Double.parseDouble(display.getText());
     		
     		/* TODO: Aufgabe 5, Partner B
-    		 * führe abhängig vom Wert von operator die richtige Rechnung 
+    		 * f�hre abhängig vom Wert von operator die richtige Rechnung 
     		 * mit value1 und value2 durch
     		 * gebe das Ergebnis im display aus
     		 */
     		
+    		double result;
     		
+    		switch (operator) {
+    			case '+':
+    				result = value1 + value2;
+    				break;
+    			case '-':
+    				result = value1 - value2;
+    				break;
+    			case '*':
+    				result = value1 * value2;
+    				break;
+    			case '/':
+    				result = value1 / value2;
+    				break;
+    			default:
+    				result = 0.0;
+    		}
+    		
+    		display.setText(Double.toString(result));
     	}
     }
 
